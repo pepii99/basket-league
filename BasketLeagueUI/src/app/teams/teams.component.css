@@ -1,0 +1,36 @@
+.teams {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.wrapper {
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.expert-teams {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.team-name {
+  font-size: 1.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.team-score {
+  font-size: 1.4rem;
+}
+
+.team {
+  margin-bottom: 2rem;
+  text-align: center;
+}

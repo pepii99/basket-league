@@ -1,0 +1,21 @@
+<div class="teams">
+  <div *ngFor="let team of teams">
+    <h5 class="team-name">{{ team.name }}</h5>
+  </div>
+</div>
+<div class="expert-teams">
+  <div class="wrapper">
+    <h2>Teams that have the least point scored against them</h2>
+    <div *ngFor="let defenseExpert of defenseExperts" class="team">
+      <h4 class="team-name">{{ defenseExpert.name }}</h4>
+      <h6 class="team-score">{{ defenseExpert.score }}</h6>
+    </div>
+  </div>
+  <div class="team">
+    <h2>Teams that have scored the most points</h2>
+    <div *ngFor="let offenseExpert of offenseExperts" class="team">
+      <h4 class="team-name">{{ offenseExpert.name }}</h4>
+      <h6 class="team-score">{{ offenseExpert.score }}</h6>
+    </div>
+  </div>
+</div>

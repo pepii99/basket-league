@@ -1,0 +1,34 @@
+<h2 class="title">Highlighted Game</h2>
+<div class="highlighted-game">
+  <div>
+    <h3>Home Team</h3>
+    <h2 class="team-name">{{ highlightedGame.homeTeamName }}</h2>
+    <span>Score</span>
+    <p class="score">{{ highlightedGame.homeTeamScore }}</p>
+  </div>
+  <span class="versus">VS</span>
+  <div>
+    <h3>Away Team</h3>
+    <h2 class="team-name">{{ highlightedGame.awayTeamName }}</h2>
+    <span>Score</span>
+    <p class="score">{{ highlightedGame.awayTeamScore }}</p>
+  </div>
+</div>
+
+<div class="games">
+  <div *ngFor="let game of games" class="game-container">
+    <div class="team">
+      <h3>Home Team</h3>
+      <h2 class="team-name">{{ game.homeTeamName }}</h2>
+      <span>Score</span>
+      <p class="score">{{ game.homeTeamScore }}</p>
+    </div>
+    <span class="versus">VS</span>
+    <div class="team">
+      <h3>Away Team</h3>
+      <h2 class="team-name">{{ game.awayTeamName }}</h2>
+      <span>Score</span>
+      <p class="score">{{ game.awayTeamScore }}</p>
+    </div>
+  </div>
+</div>

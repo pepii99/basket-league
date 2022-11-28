@@ -1,0 +1,13 @@
+.navigation {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 7rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+h1 {
+  color: whitesmoke;
+}
